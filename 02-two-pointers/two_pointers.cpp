@@ -5,12 +5,13 @@
 using namespace std;
 
 // Two values in sorted array a that add up to target, or {-1, -1}. O(n)
-pair<int, int> pairWithSum(const vector<int>& a, int target) {
+pair<int, int> pairWithSum(const vector<int>& a, long long target) {
   int n = a.size();
   int left = 0, right = n - 1;
   while (left < right) {
-    int sum = a[left] + a[right];
-    if (sum == target) return {a[left], a[right]};
+    long long sum = 1LL * a[left] + a[right];
+    if (sum == target)
+      return {a[left], a[right]};
     if (sum > target) right--;
     else left++;
   }

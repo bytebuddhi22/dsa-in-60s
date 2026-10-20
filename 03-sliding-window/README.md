@@ -6,7 +6,7 @@
 
 ## Idea
 - Pehli window ka sum ek baar nikalo
-- Har slide par bas 2 kaam: ek minus, ek plus → `sum += a[i] - a[i - k]`
+- Har slide par bas 2 kaam: ek minus, ek plus → `sum += a[i];  sum -= a[i - k];`
 - O(n·k) se seedha O(n)
 
 ## Example from the video

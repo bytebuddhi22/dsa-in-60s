@@ -2,7 +2,7 @@
 // The function is exactly the code shown in the video.
 // Note: 20! is the largest factorial that fits in long long; fact(21) overflows.
 
-long long fact(int n) {
+long long fact(int n) {  // 0 <= n <= 20
   if (n <= 1) return 1;   // base case
   return n * fact(n - 1); // smaller
 }

@@ -19,7 +19,7 @@
 - Space: O(n) for the stack
 
 ## Code
-- [valid_parentheses.cpp](valid_parentheses.cpp): the video's code, plus the `open(c)` helper the video only describes in a comment
+- [valid_parentheses.cpp](valid_parentheses.cpp): the video's code (the `opener` map pairs each closing bracket with its opener)
 - [valid_parentheses.py](valid_parentheses.py): Python version
 - Tests: [test_valid_parentheses.cpp](test_valid_parentheses.cpp), [test_valid_parentheses.py](test_valid_parentheses.py)
 

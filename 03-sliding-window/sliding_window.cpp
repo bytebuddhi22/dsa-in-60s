@@ -5,17 +5,16 @@
 using namespace std;
 
 // Max sum of any k consecutive elements (1 <= k <= n). O(n)
-// Note: int is fine for the video; use long long if sums can exceed ~2 * 10^9.
-int maxWindowSum(const vector<int>& a, int k) {
+long long maxWindowSum(const vector<int>& a, int k) {
   int n = a.size();
-  int sum = 0;
+  long long sum = 0;
   for (int i = 0; i < k; i++) sum += a[i];
-  int best = sum;
+  long long best = sum;
   for (int i = k; i < n; i++) {
-    sum += a[i] - a[i - k];
+    sum += a[i];  sum -= a[i - k];
     best = max(best, sum);
   }
-  return best;
+  return best;   // 1 <= k <= n
 }
 
 #ifndef DSA_TEST
