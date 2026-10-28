@@ -22,8 +22,10 @@ code for every one of them: the exact C++ from the video, a Python version, and 
 | 04 | [Prefix Sum](04-prefix-sum) | Build once, answer any range sum in one step | O(n) + O(1)/query | [C++](04-prefix-sum/prefix_sum.cpp) · [Python](04-prefix-sum/prefix_sum.py) |
 | 05 | [Stack](05-stack) | Opening → push, closing → must match the top | O(n) | [C++](05-stack/valid_parentheses.cpp) · [Python](05-stack/valid_parentheses.py) |
 | 06 | [Recursion](06-recursion) | Big problem = same problem, a bit smaller + a base case | O(n) | [C++](06-recursion/recursion.cpp) · [Python](06-recursion/recursion.py) |
+| 07 | [Hashing](07-hashing) | Ask "what do I need?" and look it up in O(1) | O(n) | [C++](07-hashing/two_sum.cpp) · [Python](07-hashing/two_sum.py) |
+| 08 | [Linked List](08-linked-list) | Insert = change 2 pointers, nothing shifts | O(1) insert | [C++](08-linked-list/linked_list.cpp) · [Python](08-linked-list/linked_list.py) |
 
-Next up: **Hashing**. Subscribe so you don't miss it.
+Next up: **Queue**. Subscribe so you don't miss it.
 
 ## Run it yourself
 
